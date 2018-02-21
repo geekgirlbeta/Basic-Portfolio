@@ -3,24 +3,26 @@
     <head>
         <meta charset="UTF-8">
         <title>Stacy Morse</title>
+        <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     </head>
     <body>
-        <div class="container">
-            <header>
-                <h1>Stacy Morse</h1>
-            </header>
 
+        <header id="top-head">
+            <div class="container">
+                <h1 class="name-class" id="name">Stacy Morse</h1>
             <nav>
-                <ul>
-                    <li>About</li>
-                    <li>Portfolio</li>
-                    <li>Contact</li>
-                </ul>
+                <a href="index.html">About</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="contact.html">Contact</a>
             </nav>
+            </div>
+        </header>
 
-            <article>
+        <div id="main-container" class="container">
+            <section class="main-section">
                 <h2>Contact</h2>
-                <form>
+                <form id="contact-form">
                     Name:<br>
                     <input type="text" name="name"><br>
                     Email:<br>
@@ -29,17 +31,23 @@
                     <textarea name="message" rows="10" cols="30"></textarea><br><br>
                     <input type="submit" value="Submit">
                 </form>
-            </article>
+            </section>
 
-            <aside>
-                <h3>Connect with Me</h3>
-                <br>
-                <a href="https://github.com/geekgirlbeta"><img src="assets/images/githubicon.png" alt="GitHub Link" /></a>
-                <a href="https://www.linkedin.com/in/stacy-morse-8aa86599/"><img src="assets/images/linkedinicon.png" alt="Stacy's Linkedin" /></a>
-                <a href="https://stackoverflow.com/users/7307770/stacym"><img src="assets/images/stackoverflowicon.png" alt="Stack Overflow" /></a>
-            </aside>
+            <section class="side-section">
+                <div id="connect">
+                    <h2>Connect With Me</h2>
 
-            <footer><p>&copy; Copyright 2018 Stacy Morse</p></footer>
+                    <a href="https://github.com/geekgirlbeta"><img src="assets/images/githubicon.png" alt="GitHub Link" class="social-media"></a>
+                    <a href="https://www.linkedin.com/in/stacy-morse-8aa86599/"><img src="assets/images/linkedinicon.png" alt="Stacy's Linkedin" class="social-media"></a>
+                    <a href="https://stackoverflow.com/users/7307770/stacym"><img src="assets/images/stackoverflowicon.png" alt="Stack Overflow" class="social-media"></a>
+                </div>
+            </section>
         </div>
+
+        <footer>
+                <div class="footer-container">
+                    &copy; Copyright 2018 Stacy Morse 
+                </div>
+            </footer>
     </body>
 </html>
