@@ -40,6 +40,13 @@ h1, h2, h3 {
 	color: #4aaaa5;
 }
 
+#psygame {
+	font-size: 22px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #ffffff;
+	text-decoration: none;
+}
+
 h1{
 	font-size: 30px;
 	line-height: 49px;
